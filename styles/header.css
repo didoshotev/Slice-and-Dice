@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+header {
+    
+    height: 80vh;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #494D66;
+}
+
+.header-nav-list {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.header-nav-list-item a{
+    font-weight: 500;
+    color: #C7CAD0; 
+}
+
+
+.header-main{
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header-main-heading{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    text-transform: uppercase;
+    max-width: 80%;
+    margin: 0 auto 25px auto;
+}
+
+.header-main-description {
+    font-family: 'Raleway', sans-serif;
+    color: #EAEBEF;
+    max-width: 75%;
+    line-height: 1.6;
+    margin: 0 auto 60px auto;
+}
