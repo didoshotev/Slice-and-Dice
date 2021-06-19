@@ -46,14 +46,18 @@ h2 {
   }
   
   h6 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   button {
     font-weight: normal;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 .page-content-wrapper {
-    max-width: 62%;
+    max-width: 65%;
     margin: 0 auto;
 }
