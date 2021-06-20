@@ -2,9 +2,10 @@
 @import url('./styles/global.css');
 
 @import url('./styles/header.css');
-@import url('./styles/testimonials.css');
 @import url('./styles/button.css');
 @import url('./styles/advantages.css');
 @import url('./styles/gallery.css');
 @import url('./styles/members.css');
+@import url('./styles/carousel.css');
+@import url('./styles/cta.css');
 

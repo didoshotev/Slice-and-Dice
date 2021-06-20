@@ -1,0 +1,29 @@
+.cta {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-content {
+    text-align: center;
+}
+
+.cta-content h4 {
+    color: var(--darkText);
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.cta-content p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--darkText);
+}
+
+.cta-btn {
+    margin-top: 25px;
+}
