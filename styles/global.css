@@ -51,6 +51,7 @@ h2 {
 
   button {
     font-weight: normal;
+    cursor: pointer;
 }
 ul {
   margin: 0;
