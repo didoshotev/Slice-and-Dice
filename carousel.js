@@ -1,7 +1,7 @@
 let currentSlide = 1;
 
 const showSlide = (slideIndex) => {
-  const slides = document.getElementsByClassName('carousel-container');
+  const slides = document.getElementsByClassName('carousel-slide');
   if (slideIndex > slides.length) {
     currentSlide = 1
   }

@@ -18,7 +18,7 @@
     overflow: hidden;
   }
   
-  .carousel-container {
+  .carousel-slide {
     width: 100%;
     height: 90%;
     overflow: hidden;
@@ -36,7 +36,7 @@
     margin: 0 auto;
 }
 
-.carousel-slide-text-container h5{
+.carousel-slide-text-container q{
     font-family: 'Cardo', serif;
     font-size: 24px;
     font-weight: 300;
@@ -48,8 +48,6 @@
     color: #ffff;
     font-weight: bold;
 }
-
-
   
   .prev, .next {
     position: absolute;
@@ -75,18 +73,18 @@
     }
   }
   
-  .slide1 {
+  .carousel-slide--slide1 {
     background-color: var(--darkText)
   }
   
-  .slide2 {
+  .carousel-slide--slide2 {
     background-color: #577399
   }
   
-  .slide3 {
+  .carousel-slide--slide3 {
     background-color: #48a4f5;
   }
   
-  .slide4 {
+  .carousel-slide--slide4 {
     background-color: #523549;
 }
