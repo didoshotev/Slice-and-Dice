@@ -3,7 +3,8 @@
 :root {
     --orange: #E84343;
     --darkText: #505153;
-    --lightText: #9B9C9F;
+    --lightText: #76777C;
+    --lightGray: #C7CBCE;
 }
 
 html {
@@ -61,4 +62,20 @@ ul {
 .page-content-wrapper {
     max-width: 65%;
     margin: 0 auto;
+}
+
+.social-link {
+  padding: 10px 12px 7px 12px;
+  border: 1px solid var(--lightGray);
+  margin-right: 5px;
+}
+
+.social-icon {
+  color: var(--lightGray);
+}
+
+.social-icon--linedIn {
+  padding: 2px 3px;
+  background-color: var(--lightGray);
+  color: #fff;
 }
