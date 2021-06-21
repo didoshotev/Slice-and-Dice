@@ -6,7 +6,6 @@
 .advantages-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-gap: 20px; */
     grid-column-gap: 40px;
     grid-row-gap: 60px;
     width: 100%;
@@ -25,4 +24,22 @@
 
 .advantages-list-item p{
     color: var(--lightText);
+}
+
+@media screen and (max-width: 980px) {
+    .advantages-list {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .advantages-list-item{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .advantages-list-item{
+        width: 100%;
+    }    
 }

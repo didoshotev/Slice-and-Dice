@@ -1,0 +1,123 @@
+.footer-main {
+    height: 250px;
+    background-color: #3A3E63;
+}
+
+.footer-rights {
+    height: 80px;
+    background-color: #313455;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-rights p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--lightText);
+}
+
+.footer-rights p strong {
+    color: #ffff;
+    font-weight: normal;
+}
+
+.footer-rights p:nth-last-child(1) {
+    padding-bottom: 10px;
+}
+
+
+.footer-main-list {
+    display: flex;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.footer-main-list-item {
+    width: 15%;
+    text-align: center;
+}
+
+.footer-main-list-item:nth-last-child(1) {
+    width: 30%;
+    text-align: center;
+}
+
+
+.footer-main-list-item h6 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-main-list-item-links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-main-list-item-heading {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F2FAFA;
+}
+
+.footer-main-list-item-info {
+    color: var(--lightText);
+}
+
+
+.footer-main-list-item-links-link {
+    padding: 10px 12px 7px 12px;
+    border: 2px solid #ffff;
+    margin-right: 6px;
+}
+
+.footer-main-list-item-links-link-icon {
+    color: #ffff;
+}
+
+.social-icon--linkedIn {
+    padding: 1px 2px;
+    background-color: #fff;
+    color: #3A3E63;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .footer-main-list {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .footer-main-list {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .footer-main-list-item {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 12px;
+    }
+
+    .footer-main {
+        height: 300px;
+    }
+
+    .footer-main-list-item:nth-last-child(1) {
+        width: 100%;
+    }
+
+    .footer-rights p {
+        font-size: 11px;
+    }
+
+}
